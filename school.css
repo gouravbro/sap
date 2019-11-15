@@ -24,6 +24,10 @@
         font-size: 5vw;
         text-align: center;
     }
+
+    .card-group {
+        align-items: center;
+    }
 }
 
 @media only screen and (min-width: 480px) {
