@@ -1,0 +1,118 @@
+@media only screen and (max-width: 480px) {
+    .top-left {
+        position: absolute;
+        top: 80px;
+        left: 30px;
+        color: white;
+        margin-right: 30px;
+        border-radius: 4px;
+        padding-left: 10px;
+        padding-right: 3px;
+        font-size: 5vw;
+        text-align: center;
+        background-color: rgba(172, 172, 169, 0.582);
+    }
+
+    .right-corner {
+        position: absolute;
+        top: 80%;
+        left: 80%;
+        color: rgb(0, 0, 0);
+        margin-right: 10%;
+        border-radius: 4px;
+        padding: 5px;
+        font-size: 5vw;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    .top-left {
+        position: absolute;
+        top: 80px;
+        left: 10%;
+        color: white;
+        margin-right: 10%;
+        border-radius: 4px;
+        padding-left: 10px;
+        padding-right: 3px;
+        font-size: 5vw;
+        text-align: center;
+        background-color: rgba(172, 172, 169, 0.582);
+    }
+
+    .right-corner {
+        position: absolute;
+        top: 70%;
+        left: 80%;
+        color: rgb(0, 0, 0);
+        margin-right: 10%;
+        border-radius: 4px;
+        padding: 3px;
+        font-size: 2vw;
+        text-align: center;
+    }
+}
+
+.mainPic {
+    width: 100%;
+    height: auto;
+    border-radius: 3px;
+}
+
+nav {
+    z-index: 1;
+}
+
+#upArrow {
+    font-size: 7vw;
+    position: fixed;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+#navbarNav ul li a {
+    font-family: Verdana;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#fst,
+#snd,
+#trd {
+    color: black;
+}
+
+#fst:hover {
+    color: rgb(207, 58, 200);
+}
+
+#snd:hover {
+    color: rgb(207, 58, 200);
+}
+
+#trd:hover {
+    color: rgb(207, 58, 200);
+}
+
+#fst:active {
+    color: rgb(207, 58, 200);
+}
+
+#snd:active {
+    color: rgb(207, 58, 200);
+}
+
+#trd:active {
+    color: rgb(207, 58, 200);
+}
+
+.card-columns, .container{
+    margin-bottom: 60px;
+}
